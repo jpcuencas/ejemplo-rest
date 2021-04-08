@@ -1,0 +1,22 @@
+s3-ejemplo-rest
+  Es un MODULO IntelliJ que contiene un recurso rest Clientes que permite utilizar
+diferentes manejadores de contenidos y manejo de excepciones. 
+
+----Instrucciones para construir y desplegar el MÓDULO intelliJ s3-ejemplo-rest:
+
+//Arrancamos el servidor de aplicaciones desde línea de comandos
+$HOME/wildfly-8.2.1.Final/bin/standalone.sh
+
+//Construimos el módulo y generamos el fichero s3-ejemplo-rest.war (dado por el valor 
+//de la etiqueta <finalName> del fichero pom.xml)
+mvn package
+
+//desplegamos el fichero s1-ejemplo-rest.war en el servidor de aplicaciones
+mvn wildfly:deploy
+
+La ruta del servicio rest es : http://localhost:8080/s3-ejemplo-rest/rest/clientes/
+
+Se proporcionan los ficheros cliente1.xml, cliente2.xml y cliente3.xml como ejemplos
+para probar el servicio, ya que nuestros servicio trabaja con información xml.
+
+----Para probar el servicio puedes utlizar Postman

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cliente>
+   <nombre>Ana</nombre>
+   <apellidos>One Two</apellidos>
+   <direccion>Calle numero 3</direccion>
+   <codPostal>0003</codPostal>
+   <ciudad>Valencia</ciudad>
+</cliente>

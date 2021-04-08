@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cliente>
+   <nombre>Pepe </nombre>
+   <apellidos>Ape1 Ape2</apellidos>
+   <direccion>Calle numero 1</direccion>
+   <codPostal>0001</codPostal>
+   <ciudad>Alicante</ciudad>
+</cliente>
